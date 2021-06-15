@@ -48,7 +48,7 @@ function __to_ls
 end
 
 function __to_rm
-  rm (__to_bm_path $argv[1]); or return $status
+  /bin/rm (__to_bm_path $argv[1]); or return $status
   __to_update_bookmark_completions
 end
 
@@ -202,7 +202,7 @@ function to -d 'Bookmarking tool'
       for bm in (__to_ls)
         set -l dest (__to_expand $bm)
         if not test -d "$dest"
-          rm -v (__to_bm_path $bm)
+          /bin/rm -v (__to_bm_path $bm)
         end
       end
       return 0
