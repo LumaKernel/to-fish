@@ -1,5 +1,7 @@
 # to-fish
 
+NOTE: This repository is fork of [joehillen/to-fish](https://github.com/joehillen/to-fish) iwth little modification.
+
 A directory bookmarking tool for fish-shell.
 
 ## Usage
@@ -28,7 +30,7 @@ Usage:
 ### [Fisher](https://github.com/jorgebucaran/fisher) (recommended)
 
 ```txt
-fisher install joehillen/to-fish
+fisher install LumaKernel/to-fish
 ```
 
 ### [fundle](https://github.com/tuvistavie/fundle)
@@ -36,7 +38,7 @@ fisher install joehillen/to-fish
 Add the following to `~/.config/fish/config.fish` and run `fundle install`.
 
 ```txt
-fundle plugin joehillen/to-fish
+fundle plugin LumaKernel/to-fish
 ```
 
 ## Manually
